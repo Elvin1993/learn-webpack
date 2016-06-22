@@ -2,7 +2,7 @@ import 'babel-polyfill'
 import React, {Component} from 'react'
 import ReactDome from 'react-dom'
 // import AppRouter from './AppRouter'
-import Home from './Home.js'
+import Home from './Home'
 
 
 // export default class App extends Component {
