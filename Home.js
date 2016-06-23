@@ -5,7 +5,7 @@ import ReactDome from 'react-dom'
 
 @autobind
 export default class Home extends Component {
-
+	
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -37,8 +37,9 @@ export default class Home extends Component {
 		// })
 		for(let i=0; i<list.length; i++) {
 			ReactDome.findDOMNode(list[i]).style.color = 'red'
-		}
+		}1
 	}
+
   render() {
   	let {name} = this.state
   	let userList = [{id: -1, name: 'elvin'}
